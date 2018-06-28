@@ -1,6 +1,6 @@
 const app = require('express')()
 
-app.get('/', async (req, res) => {
+app.get('/', (req, res) => {
   res.json({ hello: 'world' })
 })
 
